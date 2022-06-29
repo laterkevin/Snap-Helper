@@ -8,6 +8,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         // hier das zu ladende Layout File ändern um andere Screens am Device zu laden
-        setContentView(R.layout.home_screen)
+        setContentView(R.layout.login_screen)
     }
 }
