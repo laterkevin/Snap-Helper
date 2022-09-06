@@ -11,6 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/home_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/comfortaa"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/fan_recycler"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="PowerFan" />
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="0dp"
@@ -84,6 +96,14 @@
             app:layout_constraintVertical_bias="0.36"
             tools:itemCount="4"
             tools:listitem="@layout/fan_layout" />
+
+        <Button
+            android:id="@+id/snap_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
